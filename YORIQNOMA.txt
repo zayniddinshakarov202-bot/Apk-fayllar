@@ -1,0 +1,15 @@
+APK YIG'ISH YO'RIQNOMASI (bepul, GitHub orqali, kompyuterda hech narsa o'rnatish shart emas)
+
+1. github.com saytida ro'yxatdan o'ting (bepul).
+2. Yangi repository yarating: "New repository" -> nom: javoblar-skaneri -> Create.
+3. "uploading an existing file" havolasini bosing va shu papkadagi HAMMA fayl va papkalarni
+   (.github papkasi ham!) sudrab tashlang. .github papkasi yashirin bo'lishi mumkin:
+   Windowsda "Ko'rish" -> "Yashirin elementlar" ni yoqing. Keyin "Commit changes" ni bosing.
+4. Repository ichida "Actions" bo'limiga o'ting. "APK yig'ish" ishga tushadi (5-10 daqiqa).
+   Ishga tushmasa: chap tomondagi "APK yig'ish" -> "Run workflow".
+5. Yashil belgi chiqqach, o'sha ishni oching. Pastda "Artifacts" bo'limida
+   javoblar-skaneri-apk ni yuklab oling (zip ichida app-debug.apk).
+6. APK ni telefonga o'tkazing va oching. Android "noma'lum manbadan o'rnatish" ruxsatini so'raydi,
+   ruxsat bering.
+
+Eslatma: bu "debug" APK, o'zingiz uchun o'rnatishga yetarli. Play Marketga qo'yish uchun emas.
